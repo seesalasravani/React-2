@@ -1,0 +1,30 @@
+::-webkit-scrollbar{
+    display:none;
+}
+
+.mainbox{
+    display:flex;
+    justify-content: space-between;
+    background-color: aqua;
+    width:50vw;
+    padding:45px;
+}
+.avilable{
+    background-color: green;
+    display:flex;
+    flex-direction: column;
+    padding:45px;
+    font-size:20px;
+}
+.unavilable{
+    background-color: red;
+    display:flex;
+    flex-direction:column;
+    padding:45px;
+    font-size:20px;
+}
+.product-image {
+    width: 150px;  /* Decreased width */
+    height: 150px; /* Decreased height */
+    object-fit: cover;  /* Ensures the image is cropped if necessary to fit the dimensions */
+  }

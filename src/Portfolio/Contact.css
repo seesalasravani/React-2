@@ -1,0 +1,62 @@
+/* Styling for the contact section */
+.contact-section {
+    background-color: orange; /* White background */
+    padding: 2rem 1rem; /* Add padding around content */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    max-width: 800px; /* Limit the section width */
+    margin: 2rem auto; /* Center the section */
+    text-align: center; /* Center the text */
+  }
+  
+  /* Title styling */
+  .contact-title {
+    font-size: 2.5rem;
+    color: #333; /* Dark color for contrast */
+    margin-bottom: 1rem;
+    font-weight: bold;
+  }
+  
+  /* Contact info styling */
+  .contact-info {
+    font-size: 1.2rem;
+    color: red; /* Medium gray color */
+    margin: 0.5rem 0; /* Add some margin between items */
+  }
+  
+  /* Links */
+  .contact-link {
+    color: #0066cc; /* Blue color for links */
+    text-decoration: none;
+  }
+  
+  .contact-link:hover {
+    text-decoration: underline; /* Underline links on hover */
+  }
+  
+  /* Responsive styling for tablets and smaller devices */
+  @media (max-width: 768px) {
+    .contact-title {
+      font-size: 2rem; /* Smaller title for smaller screens */
+    }
+  
+    .contact-info {
+      font-size: 1rem; /* Smaller text for better fit */
+    }
+  }
+  
+  /* Mobile-responsive design */
+  @media (max-width: 480px) {
+    .contact-title {
+      font-size: 1.8rem; /* Even smaller title for very small screens */
+    }
+  
+    .contact-info {
+      font-size: 0.9rem; /* Smaller text for mobile screens */
+    }
+  
+    .contact-section {
+      padding: 1rem; /* Reduce padding on small screens */
+    }
+  }
+  

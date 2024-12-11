@@ -1,0 +1,69 @@
+/* General styling for the project card */
+.project-card {
+    background-color: orange; /* White background */
+    border-radius: 10px; /* Rounded corners */
+    padding: 2rem; /* Padding around the content */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    max-width: 600px; /* Limit the card width */
+    margin: 2rem auto; /* Center the card with some space */
+    text-align: center; /* Center-align the text */
+  }
+  
+  .project-title {
+    font-size: 2rem; /* Larger title */
+    color: #333; /* Dark color for the title */
+    font-weight: bold;
+    margin-bottom: 1rem; /* Space below the title */
+  }
+  
+  .project-description {
+    font-size: 1.2rem; /* Medium size for description */
+    color: #555; /* Gray color for description */
+    margin-bottom: 1.5rem; /* Space below description */
+    line-height: 1.6; /* Improve readability with line height */
+  }
+  
+  .project-link {
+    font-size: 1.2rem;
+    color: #0066cc; /* Blue color for links */
+    text-decoration: none; /* Remove underline by default */
+  }
+  
+  .project-link:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  /* Responsive design for tablets and smaller devices */
+  @media (max-width: 768px) {
+    .project-card {
+      padding: 1.5rem; /* Less padding on smaller screens */
+    }
+  
+    .project-title {
+      font-size: 1.8rem; /* Slightly smaller title on smaller screens */
+    }
+  
+    .project-description {
+      font-size: 1rem; /* Adjust description font size */
+    }
+  }
+  
+  /* Responsive design for mobile devices */
+  @media (max-width: 480px) {
+    .project-card {
+      padding: 1rem; /* Less padding for very small screens */
+    }
+  
+    .project-title {
+      font-size: 1.5rem; /* Smaller title for mobile screens */
+    }
+  
+    .project-description {
+      font-size: 0.9rem; /* Smaller description text */
+    }
+  
+    .project-link {
+      font-size: 1rem; /* Slightly smaller link font */
+    }
+  }
+  
