@@ -1,0 +1,54 @@
+/* Container for the About section */
+.about-section {
+    background-color: orange; /* Light background color */
+    padding: 2rem; /* Padding around the content */
+    text-align: center; /* Center-align text */
+    border-radius: 10px; /* Smooth rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    max-width: 800px; /* Limit the width */
+    margin: 2rem auto; /* Center the section on the page */
+  }
+  
+  /* Title styles */
+  .about-title {
+    font-size: 2.5rem;
+    color: #333; /* Dark color for contrast */
+    margin-bottom: 1rem;
+    font-weight: bold;
+  }
+  
+  /* Text styles */
+  .about-text {
+    font-size: 1.2rem;
+    color: blue; /* Medium gray color */
+    line-height: 1.8; /* Improve readability with spacing */
+    margin: 0 auto;
+    max-width: 600px; /* Limit width for text readability */
+  }
+  
+  /* Responsive design for tablets and smaller devices */
+  @media (max-width: 768px) {
+    .about-title {
+      font-size: 2rem; /* Slightly smaller title */
+    }
+  
+    .about-text {
+      font-size: 1rem; /* Adjust font size for smaller screens */
+    }
+  }
+  
+  /* Responsive design for mobile devices */
+  @media (max-width: 480px) {
+    .about-title {
+      font-size: 1.8rem; /* Further reduce title size */
+    }
+  
+    .about-text {
+      font-size: 0.9rem; /* Smaller text for compact screens */
+    }
+  
+    .about-section {
+      padding: 1rem; /* Adjust padding for smaller screens */
+    }
+  }
+  

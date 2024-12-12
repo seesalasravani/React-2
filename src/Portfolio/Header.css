@@ -1,0 +1,61 @@
+/* General header styling */
+.header {
+    background-color:orange; /* Dark background */
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  /* Navigation list styling */
+  .nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 2rem; /* Space between menu items */
+  }
+  
+  /* Navigation item styling */
+  .nav-item {
+    font-size: 1.2rem;
+  }
+  
+  /* Link styling */
+  .nav-link {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: blue; /* Highlight color on hover */
+  }
+  
+  /* Responsive styles for smaller screens */
+  @media (max-width: 768px) {
+    .nav-list {
+      flex-direction: column; /* Stack items vertically on small screens */
+      gap: 1rem; /* Reduce spacing between items */
+    }
+  
+    .nav-item {
+      font-size: 1.5rem; /* Increase font size for readability */
+    }
+  }
+  
+  /* Additional mobile responsiveness */
+  @media (max-width: 480px) {
+    .nav-item {
+      font-size: 1.3rem; /* Slightly reduce font size for very small screens */
+    }
+  
+    .header {
+      padding: 0.8rem; /* Adjust padding for mobile screens */
+    }
+  }
+  

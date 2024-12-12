@@ -1,0 +1,76 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Prevents padding and margin from affecting element sizes */
+}
+
+body {
+  font-family: Arial, sans-serif; /* Default font */
+  line-height: 1.6; /* Improved readability */
+  background-color: black; /* Light background */
+}
+
+.assemble {
+  display: flex;
+  flex-direction: column; /* Stack sections vertically */
+  min-height: 100vh; /* Full screen height */
+}
+
+section {
+  padding: 3rem 1rem; /* Add padding to all sections */
+  margin: 0 auto; /* Center the content */
+  width: 90%; /* Limit width of sections */
+  max-width: 1200px; /* Maximum width */
+  box-sizing: border-box;
+}
+
+/* General section styles */
+section h2, section h3 {
+  color: #333;
+  text-align: center;
+}
+
+section p {
+  color: #555;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  section {
+    padding: 2rem 0.5rem; /* Adjust padding for smaller screens */
+  }
+
+  section h2, section h3 {
+    font-size: 1.8rem; /* Adjust font size for titles */
+  }
+
+  section p {
+    font-size: 1rem; /* Adjust font size for paragraphs */
+  }
+}
+
+@media (max-width: 480px) {
+  section {
+    padding: 1.5rem 0.5rem; /* Further reduce padding for very small screens */
+  }
+
+  section h2, section h3 {
+    font-size: 1.5rem; /* Further reduce title font size */
+  }
+
+  section p {
+    font-size: 0.9rem; /* Adjust paragraph font size */
+  }
+}

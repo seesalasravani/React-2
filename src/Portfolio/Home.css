@@ -1,0 +1,50 @@
+/* General styles for the Home section */
+.home-section {
+    background-color: orange; /* Light background for a soft look */
+    text-align: center; /* Center-align text */
+    padding: 3rem 1rem; /* Padding around the content */
+    border-radius: 10px; /* Rounded corners */
+    max-width: 800px; /* Limit width */
+    margin: 4rem auto; /* Center the section and add space around */
+  }
+  
+  .home-title {
+    font-size: 3rem; /* Large title */
+    color: #333; /* Dark color for text */
+    font-weight: bold;
+    margin-bottom: 1rem; /* Space below the title */
+  }
+  
+  .home-description {
+    font-size: 1.5rem; /* Smaller text for the description */
+    color: blue; /* Medium gray for description */
+    line-height: 1.6; /* Line height for better readability */
+    margin-top: 0; /* Remove top margin */
+  }
+  
+  /* Responsive design for tablets and smaller devices */
+  @media (max-width: 768px) {
+    .home-title {
+      font-size: 2.5rem; /* Slightly smaller title */
+    }
+  
+    .home-description {
+      font-size: 1.2rem; /* Adjust description size */
+    }
+  }
+  
+  /* Mobile-responsive design */
+  @media (max-width: 480px) {
+    .home-title {
+      font-size: 2rem; /* Even smaller title for small screens */
+    }
+  
+    .home-description {
+      font-size: 1rem; /* Further reduce description size */
+    }
+  
+    .home-section {
+      padding: 2rem 1rem; /* Adjust padding on smaller screens */
+    }
+  }
+  
