@@ -1,7 +1,7 @@
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 
-export default function MyVerticallyCenteredModal(props) {
+export default function AuthenticationModel(props) {
   return (
     <Modal
       {...props}
@@ -16,13 +16,12 @@ export default function MyVerticallyCenteredModal(props) {
       </Modal.Header>
       <Modal.Body>
         <h4>USER INFORMATION</h4>
-        <p>{props.user}</p>
-        <p>{props.mobile}</p>
-        <p>{props.email}</p>
+        <p> {props.user}</p>
+       
       </Modal.Body>
       <Modal.Footer>
         <Button onClick={props.onHide}>Close</Button>
       </Modal.Footer>
     </Modal>
   );
-}                                                                       
+}

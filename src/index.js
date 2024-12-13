@@ -4,8 +4,8 @@ import ReactDOM from "react-dom/client";
 // import Sample from './Sample';
 // import Homecomponent from "./Homecomponent";
 import reportWebVitals from "./reportWebVitals";
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Table from "./Table"
+// import 'bootstrap/dist/css/bootstrap.min.css';
+// import Table from "./Table"
 // import Sampleform1 from "./Forms/Sampleform1";
 // import  Asemble from"../src/Portfolio/Asemble.jsx";
 // import Render1 from "../src/Day3/Render1";
@@ -27,12 +27,25 @@ import Table from "./Table"
 // import Calculator1 from "./Calculator/Calculator1"
 // import Counter1 from "./Counter/Counter1"
 // import Form2 from "./FormEvents/Form2"
+// import Useefcomp from "./Useeffect/Useefcomp";
+// import About from "./RouterDom/About"
+// import Contact from "./RouterDom/Contact"
+// import Home1 from "./RouterDom/Home1"
+// import Login from "./RouterDom/Login"
+// import Price from "./RouterDom/Price"
+import RouterComp2 from "../src/RouterDom/RouterComp2";
 
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Table/>
+    {/* <About/> */}
+    {/* <Contact/>
+    <Home1/>
+    <Login/>
+    <Price/> */}
+    {/* <Useefcomp/> */}
+    {/* <Table/> */}
     {/* <Sample/> */}
     {/* <Profilecard /> */}
     {/* <Notification/> */}
@@ -60,6 +73,7 @@ root.render(
     {/* <Calculator1/> */}
     {/* <Counter1/> */}
     {/* <Form2/> */}
+    <RouterComp2/>
     
   </React.StrictMode>
 );
